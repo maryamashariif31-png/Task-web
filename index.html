@@ -1,0 +1,115 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Hami MiniMarket — Fresh. Local. Trusted.</title>
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" href="https://t4.ftcdn.net/jpg/05/34/05/85/240_F_534058561_TKfzon9zxoJeQbKFxIvGS8n4kmOD8J5V.jpg">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container">
+      <a class="logo" href="#">
+        <img src="hamilog.jpg" alt="Hami MiniMarket logo">
+        <span>Hami MiniMarket</span>
+      </a>
+      <nav class="nav">
+        <a href="#products">Products</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="menu-toggle" aria-label="Menu">☰</button>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-text">
+          <h1>Fresh. Local. Trusted.</h1>
+          <p>Hami MiniMarket brings you fresh fruits and vegetables directly from local farms.</p>
+          <a class="btn" href="#products">Shop Now</a>
+        </div>
+        <div class="hero-image">
+          <img src="https://png.pngtree.com/png-clipart/20250116/original/pngtree-healthy-and-colorful-basket-of-farm-produce-png-image_19910149.png" alt="Basket of fresh produce">
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products container">
+      <h2>Our Products</h2>
+      <p class="lead">Choose from a variety of fresh, locally grown fruits and vegetables.</p>
+      <div class="product-grid">
+        <article class="card">
+          <img src="https://media.self.com/photos/5b6b0b0cbb7f036f7f5cbcfa/4:3/w_2560%2Cc_limit/apples.jpg" alt="Apples">
+          <h3>Apples</h3>
+          <p>Fresh local apples — 1kg</p>
+        </article>
+        <article class="card">
+          <img src="https://images.squarespace-cdn.com/content/v1/603e260dcd5ee7681ca08023/1616079931558-IO3Z0KT2378B6S74ARQ5/unsplash-image-uVPDAwgqLXY.jpg" alt="Tomatoes">
+          <h3>Tomatoes</h3>
+          <p>Juicy red tomatoes — 1kg</p>
+        </article>
+        <article class="card">
+          <img src="https://img.freepik.com/premium-vector/bananas-vector-white-background_937492-5952.jpg?semt=ais_hybrid&w=740&q=80" alt="Bananas">
+          <h3>Bananas</h3>
+          <p>Sweet bananas — bunch</p>
+        </article>
+        <article class="card">
+          <img src="https://www.unlockfood.ca/EatRightOntario/media/Website-images-resized/dark-leafy-greens.jpg" alt="Greens">
+          <h3>Greens</h3>
+          <p>Organic leafy greens — bunch</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="about" class="about container">
+      <h2>About Us</h2>
+      <p>Hami MiniMarket is a community-based shop that focuses on high-quality fruits and vegetables from local farms. Our goal is to make healthy and trusted food easily accessible for everyone.</p>
+    </section>
+
+    <section id="contact" class="contact container">
+      <h2>Contact Us</h2>
+      <form id="contactForm" novalidate>
+        <div class="form-row">
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" required>
+        </div>
+        <div class="form-row">
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" required>
+        </div>
+        <div class="form-row">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Send</button>
+        <p id="formMessage" class="form-message" aria-live="polite"></p>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>Hami MiniMarket</h3>
+        <p>Fresh • Local • Trusted</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p>hello@hamiskills.dev</p>
+        <p>www.hamiskills.dev</p>
+      </div>
+      <div class="socials">
+        <a href="#">Facebook</a>
+        <a href="#">Instagram</a>
+      </div>
+    </div>
+  </footer>
+
+  <button id="backToTop" title="Back to top">↑</button>
+
+  <script src="scrip.js"></script>
+</body>
+</html>
